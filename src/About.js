@@ -21,6 +21,7 @@ export default function About() {
                 <p className = 'bigListItem'>other</p>
                 <p className = 'listItem'>long distance runner, 1x marathon, 2x half marathon</p>
                 <p className = 'listItem'>avid reader & music listener</p>
+                <p className = 'listItem'>horrible chess player</p>
             </div>
             <div className = 'movers'>
                 <Link to = '/' className = 'mover' style = {{textDecoration: 'none'}} > /</Link>
