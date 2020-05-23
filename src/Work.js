@@ -34,6 +34,7 @@ export default function Work() {
             <div className = 'movers'>
                 <Link to = '/' className = 'mover' style = {{textDecoration: 'none'}} > /</Link>
                 <Link to = '/work' className = 'currMover' style = {{textDecoration: 'none'}} > work /</Link>
+                <a href = '/resume.pdf' target="_blank" className = 'mover' style = {{textDecoration: 'none'}} > resume /</a>
                 <Link to = '/about' className = 'mover' style = {{textDecoration: 'none'}} > about /</Link>
                 <Link to = '/contact' className = 'mover' style = {{textDecoration: 'none'}} > contact /</Link>
             </div>
