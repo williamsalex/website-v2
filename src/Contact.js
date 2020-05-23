@@ -7,7 +7,7 @@ export default function Contact() {
           <div className = 'flexy'>
             <div className = 'content'>
                 <h1 className = "title">contact</h1>
-                <p className = 'listItem'>i am frequently found on linkedin and check my email daily</p>
+                <p className = 'listItem'>i am always interested in connecting and working together, shoot me a message!</p>
                 <br/>
                 <a href = 'mailto:williamsalex@pm.me'>
                     <img className = 'icon' src = '/email.png'></img>
