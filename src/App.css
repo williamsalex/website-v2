@@ -24,7 +24,7 @@ html {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
     color: rgb(255,255,255);
-    padding-top: 25px;
+    margin-top: 25px;
 }
 
 .flexy {
@@ -32,8 +32,8 @@ html {
 }
 
 .movers {
-    padding-top: 3%;
-    padding-left: 4%;
+    margin-top: 3%;
+    margin-left: 4%;
     text-align: right;
     display: flex;
     flex-direction: column;
