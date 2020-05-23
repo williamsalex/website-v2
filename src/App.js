@@ -1,11 +1,20 @@
 import React from 'react';
+import { Router, Route, Switch } from 'react-router'
+import Home from './Home'
+import Work from './Work'
+import Contact from './Contact'
+import About from './About'
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
+      <Switch>
+        <Route exact path='/' component={Home}/>
+        <Route path='/work' component={Work}/>
+        <Route path='/about' component={About}/>
+        <Route path='/contact' component={Contact}/>
+      </Switch>
     </div>
   );
 }
-
-export default App;

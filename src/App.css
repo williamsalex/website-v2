@@ -1,0 +1,89 @@
+html { 
+    background: url('/pipeline.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.title {
+    font-size: 50px;
+    /* font-family: Inter var,sans-serif; */
+    font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
+    color: rgb(255,255,255);
+}
+
+.subtitle {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
+    color: rgb(255,255,255);
+    margin: auto;
+}
+
+.mover {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
+    color: rgb(255,255,255);
+    padding-top: 25px;
+}
+
+.flexy {
+    display: flex;
+}
+
+.movers {
+    padding-top: 3%;
+    padding-left: 4%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.bigListItem {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
+    color: rgb(255,255,255);
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.content {
+    width: 650px;
+    padding-left: 30px;
+}
+
+.listItem {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
+    color: rgb(255,255,255);
+    padding-top: 5px;
+    margin: auto;
+}
+
+.currMover {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
+    color: rgb(252, 198, 118);
+    padding-top: 25px;
+    cursor: default;
+}
+
+.mover:hover {
+    font-weight: 530; 
+    position: relative;  
+    right: -4px; 
+    transition-duration: 100ms;
+}
+
+.mover:click {
+
+}
