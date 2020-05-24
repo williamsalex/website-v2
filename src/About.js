@@ -25,6 +25,7 @@ export default function About() {
             </div>
             <div className = 'movers'>
                 <Link to = '/' className = 'mover' style = {{textDecoration: 'none'}} > /</Link>
+                <Link to = '/demos' className = 'mover' style = {{textDecoration: 'none'}} > demos /</Link>
                 <Link to = '/work' className = 'mover' style = {{textDecoration: 'none'}} > work /</Link>
                 <Link to = '/about' className = 'currMover' style = {{textDecoration: 'none'}} > about /</Link>
                 <Link to = '/contact' className = 'mover' style = {{textDecoration: 'none'}} > contact /</Link>
