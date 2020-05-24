@@ -35,7 +35,7 @@ html {
 .movers {
     margin-top: 3%;
     margin-left: 4%;
-    text-align: right;
+    text-align: left;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -71,7 +71,7 @@ html {
     margin: auto;
 }
 
-.currMover {
+.currmover {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
     color: rgb(252, 198, 118);
