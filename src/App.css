@@ -52,7 +52,8 @@ html {
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
     color: rgb(255,255,255);
-    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     margin: auto;
 }
 
