@@ -14,6 +14,7 @@ export default function About() {
           <br/>
           <p className = 'bigListItem'>volunteering</p>
           <p className = 'listItem'>data analyst for the boston brigade of code for america for four months</p>
+          <p className = 'listItem'>technical support coordinator at the brooklyn public library for a year</p>
           <br/>
           <p className = 'bigListItem'>other</p>
           <p className = 'listItem'>long distance runner, 1x marathon, 2x half marathon</p>
