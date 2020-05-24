@@ -12,13 +12,13 @@ export default function Contact() {
                 <a href = 'mailto:williamsalex@pm.me'>
                     <img alt='email 'className = 'icon' src = '/email.png'></img>
                 </a>
-                <a href = 'https://github.com/williamsalex' rel="noopener" target="_blank">
+                <a href = 'https://github.com/williamsalex' rel="noopener noreferrer" target="_blank">
                     <img alt = 'github' className = 'icon' src = '/github.png'></img>
                 </a>
-                <a href = 'https://www.linkedin.com/in/alexander-williams-823925182/' rel="noopener" target="_blank">
+                <a href = 'https://www.linkedin.com/in/alexander-williams-823925182/' rel="noopener noreferrer" target="_blank">
                     <img alt = 'linkedin' className = 'icon' src = '/linkedin.png'></img>
                 </a>
-                <a href = 'https://devpost.com/williamsalex' rel="noopener" target="_blank">
+                <a href = 'https://devpost.com/williamsalex' rel="noopener noreferrer" target="_blank">
                     <img alt = 'devpost' className = 'icon' src = '/devpost.png'></img>
                 </a>
             </div>
