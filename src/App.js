@@ -15,9 +15,10 @@ export default function App() {
   const location = useLocation()
 
   const transitions = useTransition(location, location => location.pathname, {
-    from: {opacity: 0.25, transform: 'translate3d(0,-100vh,0)'},
+    from: {opacity: 0.3, transform: 'translate3d(0,-100vh,0)'},
     enter: {opacity: 1, transform: 'translate3d(0,0,0)'},
-    leave: {opacity: 0.25, transform: 'translate3d(0,100vh,0)'}
+    leave: {opacity: 0.3, transform: 'translate3d(0,125vh,0)'},
+    config: {tension: 125, friction: 30}
   })
 
   return (
