@@ -58,7 +58,6 @@ html {
 }
 
 .content {
-    will-change: transform, opacity;
     position: absolute;
     width: 650px;
     padding-left: 30px;
