@@ -23,7 +23,7 @@ export default function Work() {
             </a>
             <br/>
             <p className = 'bigListItem'>bobadilla conjecture</p>
-            <p className = 'listItem'>analysis of complex analytic singularities & their beta invariants, lê cycles & milnor numbers</p>
+            <p className = 'listItem'>pythonic analysis of complex analytic singularities & their beta invariants, lê cycles & milnor numbers</p>
             <a href = 'https://github.com/williamsalex/Bobadilla-Conjecture' rel="noopener noreferrer" target="_blank">
                 <img alt = 'github' className = 'icon' src = '/github.png'></img>
             </a>

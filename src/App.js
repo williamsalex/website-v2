@@ -1,18 +1,43 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Route, Switch } from 'react-router'
 import { useLocation } from 'react-router-dom'
 import { animated, useTransition } from 'react-spring'
 import Home from './Home'
 import Work from './Work'
+import MiniNav from './MiniNav'
 import Demos from './Demos'
 import Contact from './Contact'
 import About from './About'
 import Navigation from './Navigation'
 import './App.css';
 
+function useWindowSize() {
+  const isWindowClient = typeof window === 'object'
+
+  const [windowSize, setWindowSize] = useState(
+    isWindowClient ? window.innerWidth : undefined
+  )
+
+  useEffect(() => {
+    function setSize() {
+      setWindowSize(window.innerWidth)
+    }
+    if(isWindowClient) {
+      window.addEventListener('resize', setSize)
+
+      return () => window.removeEventListener('resize', setSize)
+    }
+  }, [isWindowClient, setWindowSize])
+
+  return windowSize
+}
+
+
 export default function App() {
 
   const location = useLocation()
+  const windowSize = useWindowSize()
+  console.log(windowSize)
 
   const transitions = useTransition(location, location => location.pathname, {
     from: {opacity: 0.3, transform: 'translate3d(0,-100vh,0)'},
@@ -20,6 +45,8 @@ export default function App() {
     leave: {opacity: 0.3, transform: 'translate3d(0,125vh,0)'},
     config: {tension: 125, friction: 30}
   })
+
+
 
   return (
     <div>
@@ -36,7 +63,14 @@ export default function App() {
           </animated.div>
         )
       }
-      <Navigation/>
+      {
+        windowSize > 800 &&
+        <Navigation/>
+      }
+      {
+        windowSize < 800 &&
+        <MiniNav/>
+      }
     </div>
   )
 }

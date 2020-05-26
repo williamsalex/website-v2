@@ -4,7 +4,9 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+    max-width: 100%;
+    overflow: hidden;
+}
 
 .title {
     font-size: 50px;
@@ -20,6 +22,18 @@ html {
     margin: auto;
 }
 
+.mini {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
+    color: rgb(255,255,255);
+    left: 50px;
+    bottom:30%;
+    position: fixed;
+    max-width: 100%;
+    /* outline-style: solid; 
+    outline-color: #FCC676; */
+}
+
 .mover {
     font-size: 21px;
     font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
@@ -30,15 +44,13 @@ html {
 
 .movers {
     position: fixed;
-    margin-top: 3%;
-    margin-left: 4%;
+    margin-top: 50px;
+    margin-left: 750px;
     text-align: left;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     white-space: nowrap;
-    left: 50vw;
-    top: 20px;
 }
 
 .icon {
@@ -61,6 +73,7 @@ html {
     position: absolute;
     width: 650px;
     padding-left: 30px;
+    max-width: 100%;
 }
 
 .listItem {
