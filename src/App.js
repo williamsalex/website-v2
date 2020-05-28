@@ -37,7 +37,6 @@ export default function App() {
 
   const location = useLocation()
   const windowSize = useWindowSize()
-  console.log(windowSize)
 
   const transitions = useTransition(location, location => location.pathname, {
     from: {opacity: 0.3, transform: 'translate3d(0,-100vh,0)'},
@@ -66,7 +65,7 @@ export default function App() {
         <Navigation/>
       }
       {
-        windowSize < 800 &&
+        windowSize <= 800 &&
         <MiniNav/>
       }
     </div>

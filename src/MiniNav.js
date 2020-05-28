@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
+import { Link, Redirect } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
 
 
@@ -19,11 +19,16 @@ function Nav() {
 }
 
 export default function MiniNav() {
-    const loc = useLocation().pathname
+
+    // const loc = useLocation().pathname
+    let locs = ['/','/demos','/work','/about','/contact']
+    const [loc, setLoc] = useState(0)
+
     return(
         <div>
-            <span className = 'chevron'></span>
-            <span className = 'chevron down'></span>
+            <Redirect to={locs[loc]}/>
+            <span className = 'chevron' onClick = {() => setLoc(loc > 0 ? loc - 1 : locs.length - 1)}></span>
+            <span className = 'chevron down' onClick = {() => setLoc(loc < locs.length - 1 ? loc + 1 : 0)}></span>
         </div>
     )
 }
