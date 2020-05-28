@@ -19,9 +19,11 @@ function Nav() {
 }
 
 export default function MiniNav() {
+    const loc = useLocation().pathname
     return(
         <div>
-            <p className = 'mini'>apologies - mobile is under construction and currently unsupported.</p>
+            <span className = 'chevron'></span>
+            <span className = 'chevron down'></span>
         </div>
     )
 }

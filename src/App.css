@@ -4,7 +4,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    max-width: 100%;
+    max-width: 90%;
     overflow: hidden;
 }
 
@@ -13,6 +13,7 @@ html {
     /* font-family: Inter var,sans-serif; */
     font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
     color: rgb(255,255,255);
+    max-width: 90%;
 }
 
 .subtitle {
@@ -32,6 +33,25 @@ html {
     max-width: 100%;
     /* outline-style: solid; 
     outline-color: #FCC676; */
+}
+
+.chevron {
+    position: fixed;
+    right: 10%;
+    top: 40%;
+    color: rgb(255,255,255);
+	border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+	content: '';
+	display: inline-block;
+	height: 1.80em;
+	transform: rotate(-45deg);
+	width: 1.80em;
+}
+
+.chevron.down{
+    margin-top: 100px;
+    transform: rotate(135deg);
 }
 
 .mover {
@@ -73,7 +93,7 @@ html {
     position: absolute;
     width: 650px;
     padding-left: 30px;
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .listItem {
@@ -98,8 +118,4 @@ html {
     right: -4px; 
     transition-duration: 1.5s;
     color: #FCC676;
-}
-
-.mover:click {
-
 }

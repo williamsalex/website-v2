@@ -46,8 +46,6 @@ export default function App() {
     config: {tension: 125, friction: 30}
   })
 
-
-
   return (
     <div>
       {
