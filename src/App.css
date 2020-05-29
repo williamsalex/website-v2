@@ -15,6 +15,21 @@ html {
     max-width: 90%;
 }
 
+.bin {
+    font-family: Inter var, sans-serif;
+    display: inline;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    padding-left: 3px;
+    padding-right: 3px;
+    border: black;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 0.3rem;
+    margin-right: 10px;
+    vertical-align: 21%;
+}
+
 .subtitle {
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
