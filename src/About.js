@@ -4,7 +4,9 @@ export default function About() {
     return (
       <div className = 'content'>
           <h1 className = "title">about</h1>
-          <p className = 'bigListItem'>work history</p>
+          <p className = 'bigListItem'>experience</p>
+          <p className = 'listItem'>currently web developer at valence life sciences</p>
+          <p className = 'listItem'>webmaster at valence life sciences for two years</p>
           <p className = 'listItem'>algorithmic researcher in northeastern university's math department for one year</p>
           <br/>
           <p className = 'bigListItem'>education</p>
