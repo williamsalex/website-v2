@@ -15,6 +15,10 @@ html {
     max-width: 90%;
 }
 
+.linked-demo {
+    text-decoration-color: #ffffff;
+}
+
 .bin {
     font-family: Inter var, sans-serif;
     display: inline;
