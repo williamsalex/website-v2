@@ -1,5 +1,7 @@
 html { 
     background: url('/pipeline.jpg') no-repeat center center fixed; 
+    background-blend-mode: saturation;
+    backdrop-filter: brightness(10%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,6 +26,8 @@ html {
     display: inline;
     font-size: 25px;
     color: rgb(255,255,255);
+    -webkit-text-fill-color: rgb(93, 153, 190);
+    -webkit-text-stroke: 1px black;
     padding-left: 3px;
     padding-right: 3px;
     border: black;
