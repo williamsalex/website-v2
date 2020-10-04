@@ -13,9 +13,6 @@ export default function About() {
           <p className = 'listItem'>flatiron school software engineering immersive graduate</p>
           <p className = 'listItem'>associate's degree from bard in liberal arts & a year of computer engineering at northeastern</p>
           <br/>
-          <p className = 'bigListItem'>volunteering</p>
-          <p className = 'listItem'>data analyst for the boston brigade of code for america for four months</p>
-          <br/>
           <p className = 'bigListItem'>other</p>
           <p className = 'listItem'>long distance runner & cyclist</p>
           <p className = 'listItem'>avid reader & musicophile</p>
