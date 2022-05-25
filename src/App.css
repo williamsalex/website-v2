@@ -45,6 +45,14 @@ html {
     margin: auto;
 }
 
+.tinytitle {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;
+  color: rgb(255,255,255);
+  margin: auto;
+  padding-top: 2%;
+}
+
 .mini {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, sans-serif, sans-serif;

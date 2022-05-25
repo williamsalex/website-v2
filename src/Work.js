@@ -4,6 +4,12 @@ export default function Work() {
     return (
         <div className = 'content'>
             <h1 className = "title">work</h1>
+            <p className = 'bigListItem'>rentredi</p>
+            <p className = 'listItem'>proptech app - 7.2B+ assets under management</p>
+            <a href='https://rentredi.com/' rel="noopener noreferrer" target="_blank">
+                <img alt = 'link' className = 'icon' src = '/link2.png'></img>
+            </a>
+            <br/>
             <p className = 'bigListItem'>betteryou</p>
             <p className = 'listItem'>wellness app - 2x minnesota startup awards winner</p>
             <a href='https://betteryou.ai' rel="noopener noreferrer" target="_blank">
