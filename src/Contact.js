@@ -21,6 +21,9 @@ export default function Contact() {
             <a href = 'https://devpost.com/williamsalex' rel="noopener noreferrer" target="_blank">
                 <img alt = 'devpost' className = 'icon' src = '/devpost.png'></img>
             </a>
+            <a href = 'https://www.are.na/alex-williams-ojbevmaayem' rel="noopener noreferrer" target="_blank">
+                <img alt = 'are.na' className = 'icon' src = '/arena.png'></img>
+            </a>
         </div>
     )
   }
