@@ -10,7 +10,7 @@ export default function About() {
           <p className = 'listItem'>algorithmic researcher in northeastern university's math department for one year</p>
           <br/>
           <p className = 'bigListItem'>education</p>
-          <p className = 'listItem'>i'm a student a st john's college in annapolis, md right now!</p>
+          <p className = 'listItem'><i>i'm a student a st john's college in annapolis, md right now!</i></p>
           <p className = 'listItem'>flatiron school software engineering immersive graduate</p>
           <p className = 'listItem'>associate's degree from bard in liberal arts & a year of computer engineering at northeastern</p>
           <br/>
