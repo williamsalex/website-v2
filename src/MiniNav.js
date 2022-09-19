@@ -3,7 +3,7 @@ import { Redirect } from 'react-router-dom'
 
 export default function MiniNav() {
     
-    let locs = ['/','/demos','/work','/about','/contact']
+    let locs = ['/','/work','/about','/contact']
     const [loc, setLoc] = useState(0)
 
     return(

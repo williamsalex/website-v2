@@ -4,10 +4,10 @@ export default function Home() {
     return (
       <div className = 'content'>
         <h1 className = "title">alex williams</h1>
-        <p className = 'title'>software engineer*</p>
-        <p className = 'subtitle'>brooklyn, ny</p>
+        <p className = 'title'>student*</p>
+        <p className = 'subtitle'>annapolis, md (often brooklyn, ny as well)</p>
         <br/>
-        <p className = 'tinytitle'>* backend-focused</p>
+        <p className = 'tinytitle'>*former backend software engineer</p>
       </div>
     )
   }
